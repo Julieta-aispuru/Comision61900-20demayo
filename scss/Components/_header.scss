@@ -1,26 +1,23 @@
 .header-publicidad {
   text-align: center;
   padding: 18px;
-  font-family: "Text Me One", sans-serif;
+  font-family: $font1;
   font-weight: bold;
   &:hover {
-    background-color: #e6c895;
+    background-color: $color1;
   }
 }
 
 .header-superior {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  @include flex(flex, row, space-between, center);
   border-style: solid;
-  border-color: #cc9f51;
+  border-color: $color1;
   .logo {
     width: 130px;
     height: 130px;
     padding: 10px;
     .titulo-principal {
-      font-family: "Text Me One", sans-serif;
+      font-family: $font1;
       padding: 10px;
       font-size: 50px;
       width: 100%;
@@ -43,15 +40,13 @@
 }
 
 .barra-busqueda {
-  background-color: #e6c895;
+  background-color: $color1;
   display: flex;
   justify-content: space-evenly;
-
   .menu-Desckop {
-    background-color: #e6c895;
+    background-color: $color1;
     width: 100%;
   }
-
   .menu-Desckop {
     ul {
       margin: 0;
@@ -67,75 +62,55 @@
   .menu-Desckop ul li {
     margin-right: 0;
   }
-  .menu-Desckop ul li a {
-    color: black;
-    font-family: "Text Me One", sans-serif;
-    font-weight: bolder;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    &:hover {
-      transform: translateY(3px);
-      background-color: #e6c895;
-    }
-  }
-  .bloque-buscador {
-    padding: 10px;
-    width: 100%;
-  }
+}
 
+.menu-Desckop ul li a {
+  @include nav(black, $font1, bolder, none);
+  padding: 10px 20px;
+  display: block;
+  &:hover {
+    transform: translateY(3px);
+    background-color: #cc9f51;
+  }
+}
+.bloque-buscador {
+  padding: 10px;
+  width: 100%;
   .bloque-buscador2 {
     width: 100%;
     margin-left: 270px;
-  }
-
-  #ingresar2 {
-    font-weight: bolder;
-    padding: 3px 8px 3px 12px;
-    border: 2px solid black;
-    width: 35%;
-  }
-
-  .barra-busqueda,
-  .bloque-buscador,
-  .bloque-buscador2,
-  input,
-  placeholder {
-    font-family: "Text Me One", sans-serif;
-  }
-
-  .boton1 {
-    border: 2px solid black;
-    padding: 3px 8px 3px 12px;
+    #ingresar2 {
+      @extend %barrabusqueda;
+    }
+    .boton1 {
+      @extend %estilo1;
+    }
   }
 }
 
-.nav-mobile {
+.barra-busqueda,
+.bloque-buscador,
+.bloque-buscador2,
+input,
+placeholder {
+  font-family: $font1;
+}
+
+.menu-mobile .nav-mobile {
   background-color: #e6c895;
   width: 100%;
-
-}
-
-.nav-mobile ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-.nav-mobile ul li {
-  display: inline-block;
-  margin-right: 20px;
-  }
-
-  .nav-mobile ul li a {
-    color: black;
-    font-family: "Text Me One", sans-serif;
-    font-weight: bolder;
-    text-decoration: none;
-    padding: 10px 20px;
+  .nav-mobile ul {
+    display: flex;
     justify-content: space-around;
-    width: 100%;
-
-  
+    .nav-mobile ul li {
+      display: inline-block;
+      margin-right: 20px;
+      .nav-mobile ul li a {
+        @include nav(black, $font1, bolder, none);
+        padding: 10px 20px;
+        justify-content: space-around;
+        width: 100%;
+      }
+    }
   }
-
-  
+}

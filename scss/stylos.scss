@@ -1,9 +1,13 @@
-@import "./Utilities/reset";
 @import "./Utilities/extend";
+@import "./Utilities/variables";
 @import "./Utilities/global";
 @import "./Utilities/mixin";
-@import "./Utilities/variables";
-@import "./page/main.scss";
+@import "./Utilities/reset";
+@import "./page/index";
+@import "./page/carrito";
+@import "./page/comocomprar";
+@import "./page/homecasa";
+@import "./page/quienessomos";
 @import "./Components/footer";
 @import "./Components/header";
 @import "./Utilities/mediaQuerie";

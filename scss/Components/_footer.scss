@@ -19,12 +19,10 @@
   }
   .nesleter {
     order: 1;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 20px;
     .cta-button {
-      border: 2px solid black;
-      font-weight: bolder;
-      padding: 3px 3px 3px 3px;
+    @extend %estilo1;
     }
   }
   h6 {

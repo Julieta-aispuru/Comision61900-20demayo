@@ -1,0 +1,13 @@
+@mixin flex ( $disp , $flexdir , $justcon , $alinit ) {
+    display: $disp;
+    flex-direction: $flexdir;
+    justify-content: $justcon;
+    align-items: $alinit;
+}
+
+@mixin nav ( $color: black , $fontfami , $fontwi , $textdeco) {
+    color: $color;
+    font-family: $fontfami;
+    font-weight: $fontwi;
+    text-decoration: $textdeco;
+}
