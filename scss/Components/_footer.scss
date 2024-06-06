@@ -1,0 +1,32 @@
+.contenedorflexible {
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  .redessociales {
+    padding: 15px;
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 15px;
+    text-decoration: underline;
+    padding-bottom: 8px;
+  }
+  .formasdepago {
+    padding: 15px;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  .nesleter {
+    order: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+    .cta-button {
+    @extend %estilo1;
+    }
+  }
+  h6 {
+    padding: 15px;
+    align-self: self-end;
+  }
+}

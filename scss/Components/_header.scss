@@ -1,0 +1,116 @@
+.header-publicidad {
+  text-align: center;
+  padding: 18px;
+  font-family: $font1;
+  font-weight: bold;
+  &:hover {
+    background-color: $color1;
+  }
+}
+
+.header-superior {
+  @include flex(flex, row, space-between, center);
+  border-style: solid;
+  border-color: $color1;
+  .logo {
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    .titulo-principal {
+      font-family: $font1;
+      padding: 10px;
+      font-size: 50px;
+      width: 100%;
+    }
+  }
+  .Contenedor-usuariocarrito {
+    display: flex;
+    align-items: first baseline;
+  }
+  .carrito {
+    width: 30px;
+    left: 30%;
+    margin: 10px;
+  }
+  .Usuario {
+    width: 30px;
+    left: 30%;
+    margin: 25px;
+  }
+}
+
+.barra-busqueda {
+  background-color: $color1;
+  display: flex;
+  justify-content: space-evenly;
+  .menu-Desckop {
+    background-color: $color1;
+    width: 100%;
+  }
+  .menu-Desckop {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+  }
+  .menu-Desckop ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .menu-Desckop ul li {
+    margin-right: 0;
+  }
+}
+
+.menu-Desckop ul li a {
+  @include nav(black, $font1, bolder, none);
+  padding: 10px 20px;
+  display: block;
+  &:hover {
+    transform: translateY(3px);
+    background-color: #cc9f51;
+  }
+}
+.bloque-buscador {
+  padding: 10px;
+  width: 100%;
+  .bloque-buscador2 {
+    width: 100%;
+    margin-left: 270px;
+    #ingresar2 {
+      @extend %barrabusqueda;
+    }
+    .boton1 {
+      @extend %estilo1;
+    }
+  }
+}
+
+.barra-busqueda,
+.bloque-buscador,
+.bloque-buscador2,
+input,
+placeholder {
+  font-family: $font1;
+}
+
+.menu-mobile .nav-mobile {
+  background-color: #e6c895;
+  width: 100%;
+  .nav-mobile ul {
+    display: flex;
+    justify-content: space-around;
+    .nav-mobile ul li {
+      display: inline-block;
+      margin-right: 20px;
+      .nav-mobile ul li a {
+        @include nav(black, $font1, bolder, none);
+        padding: 10px 20px;
+        justify-content: space-around;
+        width: 100%;
+      }
+    }
+  }
+}
