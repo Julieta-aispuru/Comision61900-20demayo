@@ -1,10 +1,25 @@
 %estilo1 {
-    border: 2px solid black;
-    padding: 3px 8px 3px 12px;
+  border: 2px solid black;
+  padding: 3px 8px 3px 12px;
 }
 %barrabusqueda {
-    border: 2px solid black;
-    padding: 3px 8px 3px 12px;
+  border: 2px solid black;
+  padding: 3px 8px 3px 12px;
+  font-weight: bolder;
+
+}
+%contenedorflexible {
+  padding: 5px;
+  width: 200px;
+  display: block;
+  %img {
+    width: 185px;
+    height: 185px;
+  }
+  %small {
+    font-size: 15px;
+    font: $font1;
     font-weight: bolder;
-    width: 35%;
+    text-align: center;
+  }
 }

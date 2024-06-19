@@ -1,31 +1,15 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap");
-.bloque-buscador .bloque-buscador2 .boton1, .contenedorflexible .nesleter .cta-button {
-  border: 2px solid black;
-  padding: 3px 8px 3px 12px;
-}
-
-.bloque-buscador .bloque-buscador2 #ingresar2 {
-  border: 2px solid black;
-  padding: 3px 8px 3px 12px;
-  font-weight: bolder;
-  width: 35%;
-}
-
-/*Selector universal*/
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  min-height: 100vw;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23cba86d' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   grid-template-rows: 3, 1fr;
   grid-template-areas: "header" "main" "footer-principal";
 }
 body header {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23cba86d' fill-opacity='0.4'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   grid-area: header;
 }
 body main {
@@ -36,9 +20,173 @@ body .footer-principal {
   background-color: #cc9f51;
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
+.bloque-buscador .boton1, .contenedorflexible .nesleter .cta-button, .contenedormain .contenerdor-flexible .boton1 {
+  border: 2px solid black;
+  padding: 3px 8px 3px 12px;
+}
+
+.bloque-buscador #ingresar2 {
+  border: 2px solid black;
+  padding: 3px 8px 3px 12px;
+  font-weight: bolder;
+}
+
+.contenedormain .contenerdor-flexible {
+  padding: 5px;
+  width: 200px;
+  display: block;
+}
+.contenedormain .contenerdor-flexible img {
+  width: 185px;
+  height: 185px;
+}
+.contenedormain .contenerdor-flexible .small {
+  font-size: 15px;
+  font: Text Me One, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#carouselExample {
+  padding: 20px;
+}
+#carouselExample .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+#carouselExample .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+#carouselExample .carousel-control-prev-icon, #carouselExample .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  position: sticky;
+}
+
+.slide {
+  height: auto;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.text-navy {
+  color: black;
+}
+
+.cart-product-imitation {
+  text-align: center;
+  height: 80px;
+  width: 80px;
+}
+.cart-product-imitation .imagen1 {
+  height: 100px;
+  width: 80px;
+  text-align: center;
+}
+
+.product-imitation.xl {
+  padding: 120px 0;
+}
+
+.product-desc {
+  padding: 20px;
+  position: relative;
+}
+
+.ecommerce .tag-list {
+  padding: 0;
+}
+
+.ecommerce .fa-star {
+  color: #d1dade;
+}
+
+.ecommerce .fa-star.active {
+  color: #f8ac59;
+}
+
+.ecommerce .note-editor {
+  border: 1px solid #e7eaec;
+}
+
+table.shoping-cart-table {
+  margin-bottom: 0;
+}
+
+table.shoping-cart-table tr td {
+  border: none;
+  text-align: right;
+}
+
+table.shoping-cart-table tr td.desc,
+table.shoping-cart-table tr td:first-child {
+  text-align: left;
+}
+
+table.shoping-cart-table tr td:last-child {
+  width: 80px;
+}
+
+.ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.ibox.collapsed .ibox-content {
+  display: none;
+}
+
+.ibox:after,
+.ibox:before {
+  display: table;
+}
+
+.ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 3px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 14px 15px 7px;
+  min-height: 48px;
+}
+
+.ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+
+.ibox-footer {
+  color: inherit;
+  border-top: 1px solid #e7eaec;
+  font-size: 90%;
+  background: #ffffff;
+  padding: 10px 15px;
+}
+
+.contenido-comocomprar h3 {
+  font-style: Text Me One, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+li {
+  font: Text Me One, sans-serif;
+  font-weight: 500;
 }
 
 .contenedormain {
@@ -47,14 +195,15 @@ body .footer-principal {
   grid-template-columns: 3, 1fr;
   grid-template-rows: 3, 1fr;
   grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
-  row-gap: 10px;
-  column-gap: 10px;
-  margin-left: 10px;
+  row-gap: inherit;
+  column-gap: normal;
+  margin-left: 50px;
   padding-top: 25px;
+  box-sizing: border-box;
 }
 .contenedormain .box {
   display: flex;
-  width: 100%;
+  width: 85%;
   height: 300px;
   flex-direction: row;
   border: 3px solid #cc9f51;
@@ -66,7 +215,6 @@ body .footer-principal {
 }
 .contenedormain .img1 {
   grid-area: img1;
-  transform: translate(10px);
 }
 .contenedormain .img2 {
   grid-area: img2;
@@ -92,29 +240,37 @@ body .footer-principal {
 .contenedormain .img9 {
   grid-area: img9;
 }
+.contenedormain .box .img1 {
+  display: flex;
+}
+.contenedormain .contenerdor-flexible .boton1 {
+  margin-left: 40px;
+}
 
 .title {
   font-style: Text Me One, sans-serif;
   color: black;
   font-weight: bold;
-  text-shadow: 1px 1px 1px 1px;
   text-align: center;
 }
 
-main .prueba {
+.prueba {
   display: flex;
   flex-direction: row;
 }
-main .prueba div {
-  margin-left: 20em;
-}
-main .prueba div img {
-  width: 50%;
-  height: 50%;
+
+.traslate {
+  width: 600px;
+  height: 500px;
   text-align: center;
+  margin: 30px;
+  border-style: double;
 }
-main .prueba div img.traslate {
-  mask-image: linear-gradient(to right, rgb(155, 151, 151), rgba(155, 151, 155, 0.5));
+
+.buscanos h4 {
+  font-style: Text Me One, sans-serif;
+  color: black;
+  font-weight: bold;
 }
 
 .contenedorflexible {
@@ -178,7 +334,7 @@ main .prueba div img.traslate {
 }
 .header-superior .Contenedor-usuariocarrito {
   display: flex;
-  align-items: first baseline;
+  align-items: baseline;
 }
 .header-superior .carrito {
   width: 30px;
@@ -229,11 +385,9 @@ main .prueba div img.traslate {
 
 .bloque-buscador {
   padding: 10px;
-  width: 100%;
-}
-.bloque-buscador .bloque-buscador2 {
-  width: 100%;
-  margin-left: 270px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
 }
 .barra-busqueda,
 .bloque-buscador,
@@ -243,58 +397,64 @@ placeholder {
   font-family: Text Me One, sans-serif;
 }
 
-.menu-mobile .nav-mobile {
-  background-color: #e6c895;
-  width: 100%;
-}
-.menu-mobile .nav-mobile .nav-mobile ul {
-  display: flex;
-  justify-content: space-around;
-}
-.menu-mobile .nav-mobile .nav-mobile ul .nav-mobile ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-.menu-mobile .nav-mobile .nav-mobile ul .nav-mobile ul li .nav-mobile ul li a {
-  color: black;
-  font-family: Text Me One, sans-serif;
-  font-weight: bolder;
-  text-decoration: none;
-  padding: 10px 20px;
-  justify-content: space-around;
-  width: 100%;
-}
-
 @media screen and (max-width: 768px) {
-  .menu-Desckop {
-    display: none;
+  .barra-busqueda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .barra-busqueda .bloque-buscador {
+    align-content: center;
   }
 }
-@media screen and (min-width: 768px) {
-  .menu-mobile {
+@media screen and (max-width: 768px) {
+  .header-superior {
     display: flex;
-    flex-direction: row;
-    display: none;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-Desckop {
+    scroll-behavior: initial;
+  }
+}
+@media screen and (max-width: 768px) {
+  body header .footer-principal {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedorflexible {
+    width: auto;
+    display: block;
+  }
+  .contenedorflexible img {
+    width: auto;
+    height: 100;
+  }
+  .contenedorflexible .small {
+    font-size: 10px;
+    font: Text Me One, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .prueba {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedorflexible {
+    flex-direction: column;
+    align-content: center;
   }
 }
 
 /*# sourceMappingURL=stylos.css.map */
-=======
-/* Error: Can't find stylesheet to import.
- *    ,
- * 11 | @import "./Components/footer";
- *    |         ^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\stylos.scss 11:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 11 \2502  @import \"./Components/footer\";\d\a    \2502          ^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\stylos.scss 11:9  root stylesheet";
-}
->>>>>>> master

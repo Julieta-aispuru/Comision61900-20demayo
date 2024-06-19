@@ -25,7 +25,7 @@
   }
   .Contenedor-usuariocarrito {
     display: flex;
-    align-items: first baseline;
+    align-items: baseline;
   }
   .carrito {
     width: 30px;
@@ -75,10 +75,10 @@
 }
 .bloque-buscador {
   padding: 10px;
-  width: 100%;
-  .bloque-buscador2 {
-    width: 100%;
-    margin-left: 270px;
+  width: 50%;
+  display:flex;
+  justify-content: end;
+
     #ingresar2 {
       @extend %barrabusqueda;
     }
@@ -86,7 +86,7 @@
       @extend %estilo1;
     }
   }
-}
+
 
 .barra-busqueda,
 .bloque-buscador,
@@ -96,21 +96,3 @@ placeholder {
   font-family: $font1;
 }
 
-.menu-mobile .nav-mobile {
-  background-color: #e6c895;
-  width: 100%;
-  .nav-mobile ul {
-    display: flex;
-    justify-content: space-around;
-    .nav-mobile ul li {
-      display: inline-block;
-      margin-right: 20px;
-      .nav-mobile ul li a {
-        @include nav(black, $font1, bolder, none);
-        padding: 10px 20px;
-        justify-content: space-around;
-        width: 100%;
-      }
-    }
-  }
-}

@@ -1,4 +1,3 @@
-
 .contenedormain {
   display: grid;
   margin: 0;
@@ -8,14 +7,15 @@
     "img1 img2 img3"
     "img4 img5 img6"
     "img7 img8 img9";
-  row-gap: 10px;
-  column-gap: 10px;
-  margin-left: 10px;
+  row-gap: inherit;
+  column-gap: normal;
+  margin-left: 50px;
   padding-top: 25px;
+  box-sizing: border-box;
 
   .box {
     display: flex;
-    width: 100%;
+    width: 85%;
     height: 300px;
     flex-direction: row;
     border: 3px solid $color1;
@@ -26,43 +26,60 @@
     margin-right: 30px;
   }
 
-    .img1 {
-      grid-area: img1;    
-      transform: translate(10px)
-
-    }
-
-    .img2 {
-      grid-area: img2;
-    }
-
-    .img3 {
-      grid-area: img3;
-    }
-
-    .img4 {
-      grid-area: img4;
-    }
-
-    .img5 {
-      grid-area: img5;
-    }
-
-    .img6 {
-      grid-area: img6;
-    }
-
-    .img7 {
-      grid-area: img7;
-    }
-
-    .img8 {
-      grid-area: img8;
-    }
-
-    .img9 {
-      grid-area: img9;
-    }
+  .img1 {
+    grid-area: img1;
   }
 
- 
+  .img2 {
+    grid-area: img2;
+  }
+
+  .img3 {
+    grid-area: img3;
+  }
+
+  .img4 {
+    grid-area: img4;
+  }
+
+  .img5 {
+    grid-area: img5;
+  }
+
+  .img6 {
+    grid-area: img6;
+  }
+
+  .img7 {
+    grid-area: img7;
+  }
+
+  .img8 {
+    grid-area: img8;
+  }
+
+  .img9 {
+    grid-area: img9;
+  }
+
+  .box .img1 {
+    display: flex;
+  }
+
+  .contenerdor-flexible {
+    @extend %contenedorflexible;
+
+    img {
+      @extend %img;
+    }
+
+    .small {
+      @extend %small;
+    }
+
+    .boton1 {
+      @extend %estilo1;
+      margin-left: 40px;
+    }
+  }
+}

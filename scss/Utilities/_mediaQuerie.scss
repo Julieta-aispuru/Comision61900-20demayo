@@ -1,18 +1,68 @@
 
 @media screen and (max-width: 768px) {
-    .menu-Desckop {
-                    display: none;
-  }
-  }
-
-  @media screen and (min-width: 768px) {
-    .menu-mobile {
-        display: flex;
-        flex-direction: row;
-        display: none;
+  .barra-busqueda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .bloque-buscador {
+      align-content: center;
     }
-    
   }
+}
 
-  
-  
+@media screen and (max-width: 768px) {
+  .header-superior {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu-Desckop {
+    scroll-behavior: initial;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body header .footer-principal {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorflexible {
+    width: auto;
+    display: block;
+    img {
+      width: auto;
+      height: 100;
+    }
+    .small {
+      font-size: 10px;
+      font: $font1;
+      font-weight: bolder;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prueba {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorflexible {
+    flex-direction: column;
+  align-content: center;
+   
+  }
+}

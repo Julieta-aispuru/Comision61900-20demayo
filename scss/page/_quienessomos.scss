@@ -2,21 +2,22 @@
   font-style: $font1;
   color: black;
   font-weight: bold;
-  text-shadow: 1px 1px 1px 1px;
   text-align: center;
+
 }
-main .prueba {
+.prueba {
   display: flex;
   flex-direction: row;
-  div {
-    margin-left: 20em;
-    img {
-      width: 50%;
-      height: 50%;
+}
+.traslate {
+      width: 600px;
+      height: 500px;
       text-align: center;
-      &.traslate {
-        mask-image: linear-gradient(to right, rgb(155, 151, 151), rgba(155, 151, 155, 0.5));
-      }
-    }
-  }
+      margin: 30px;
+      border-style: double;
+}
+.buscanos h4 {
+  font-style: $font1;
+  color: black;
+  font-weight: bold;
 }

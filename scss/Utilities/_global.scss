@@ -1,27 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap");
 
-/*Selector universal*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
-*{margin:0;padding:0;}
 
 
 body {
-min-height: 100vw;
-background-image: $fondo1;
-grid-template-rows: 3, 1fr;
-grid-template-areas: "header" "main" "footer-principal";
-
-header {
   background-image: $fondo1;
-  grid-area: header;
+  grid-template-rows: 3, 1fr;
+  grid-template-areas: "header" "main" "footer-principal";
+
+  header {
+    grid-area: header;
   }
 
-   main {
+  main {
     grid-area: main;
-    }
+  }
 
-    .footer-principal {
-      grid-area: footer-principal;
-      background-color: $color1;
-      }
+  .footer-principal {
+    grid-area: footer-principal;
+    background-color: $color1;
+  }
+
+  
+
 }
